@@ -4,6 +4,7 @@ import bodyParser from "body-parser";
 import morgan from "morgan";
 import helmet from "helmet";
 import dotenv from "dotenv";
+
 // ROUTE IMPORTS
 import dashboardRoutes from "./routes/dashboardRoutes";
 import productRoutes from "./routes/productRoutes";
